@@ -134,3 +134,15 @@ console.log(arr11);
 let arr12 = [1, 2, [3, 4], 5, [6, 7]];
 arr12 = arr12.filter((item) => Array.isArray(item));
 console.log(arr12);
+
+//20. Дан массив с числами [5,-3, 6,-5, 0,-7, 8, 9]. Посчитайте количество отрицательных чисел в этом массиве.
+
+const arr13=[5,-3, 6,-5, 0,-7, 8, 9];
+const count=arr13.reduce(
+    function(accum,currentValue){
+        currentValue<0?accum++:'';
+        return accum;
+    },0
+);
+
+console.log(count);
