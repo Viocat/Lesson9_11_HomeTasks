@@ -28,7 +28,7 @@ function fInd(array, cb) {
 
 fInd(array,
 //     function(array,item){
-//     let res=item*array;
+//     let res=item*array[3];
 //     return res;
 // }
 mult()
